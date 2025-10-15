@@ -12,8 +12,8 @@ import { Eye, EyeOff, Palette } from 'lucide-react';
 
 export default function AdminLogin() {
   const [formData, setFormData] = useState({
-    username: '',
-    password: ''
+    username: 'admin',
+    password: 'admin123'
   });
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
